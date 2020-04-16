@@ -1,0 +1,64 @@
+#titulo{
+    border-radius: 20px;  
+    background-color:#1abc9c;
+    width:140px;
+    padding:10px;
+    box-shadow: 20px 10px 10px #6c757d; 
+  }
+  @font-face {
+    font-family: "fuente";
+    src: 
+         url("Calistoga-Regular.ttf") format("truetype"),
+        }
+
+#fuente
+{
+    font-family:fuente;
+}
+
+.imagen:hover {
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #2c3e50;
+    -webkit-box-shadow: 0px 0px 15px 15px #2c3e50;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    filter: opacity(.5);
+}
+
+#txtfotos{
+
+    text-shadow: 5px 5px 5px #2c3e50;
+}
+
+#galeria{
+     border:2px solid #fff;
+     -moz-box-shadow: 0px 6px 5px #ccc;
+    -webkit-box-shadow: 0px 6px 5px #ccc;
+    box-shadow: 0px 6px 5px #ccc;
+    -moz-border-radius:190px;
+    -webkit-border-radius:190px;
+    border-radius:190px;
+}
+#textsobre{
+    text-shadow:4px 4px 8px blue;
+}
+
+#formu{
+    color: inherit;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-shadow: 5px 5px 5px #2c3e50;
+}
+
+.bubbles {
+    display: inline-block;
+    font-family: arial;
+    position: relative;
+    position: relative;
+margin: 1em 0 0;
+font-family: 'Luckiest Guy', cursive;
+color: #fff;
+z-index: 2;
+    }
